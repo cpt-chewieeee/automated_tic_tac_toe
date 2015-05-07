@@ -31,3 +31,8 @@ Installation:
 3. cd into directory
 
 4. to start: ionic serve
+
+
+Summary:
+---------------
+This program favors X than O

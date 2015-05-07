@@ -62,7 +62,7 @@ angular.module( 'game', []).factory( 'TFactory', function(){
                     });
                 }
             }
-            if(X_win == 10 || O_win == 10){
+            if(X_win == 1 || O_win == 1){
                 $("button").prop("disabled", false);
                 time_stamp();
             }
@@ -195,7 +195,7 @@ angular.module( 'game', []).factory( 'TFactory', function(){
 
         function set_XO(callBack){
             x_check = Math.floor((Math.random() * 2))? true: false;
-            winner = "Draw";   
+            winner = "DRAW";   
            
             board = [{player : ''}, { player : ''}, { player : ''},
                     {player : ''}, { player : ''}, { player : ''},
@@ -287,7 +287,7 @@ angular.module( 'game', []).factory( 'TFactory', function(){
                 winningMove(function(win){   
                     if(win){
                         board[win - 1].player = player;
-                        winner = player + " Wins";
+                        winner = player + " WINS";
                         valid = [];
                         playerMove(true, callBack);
                     }
