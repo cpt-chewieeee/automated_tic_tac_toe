@@ -62,7 +62,7 @@ angular.module( 'game', []).factory( 'TFactory', function(){
                     });
                 }
             }
-            if(X_win == 1 || O_win == 1){
+            if(X_win == 10 || O_win == 10){
                 $("button").prop("disabled", false);
                 time_stamp();
             }
