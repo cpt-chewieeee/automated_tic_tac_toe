@@ -1,9 +1,9 @@
 Automated Tic-Tac-Toe game
---------------------------
+======================
 
 
 Requirements:
-
+--------------
 1. Program can assign random moves for X and O (or favor one AI to another).
 
 2. Print out on the board when X or O wins
@@ -12,7 +12,7 @@ Requirements:
 
 
 Keynote:
-
+--------------
 1. Your program never print out a full board unless the final move is a game winning move. 
 
 2. If its a draw, print out the board
@@ -23,7 +23,7 @@ Keynote:
 
 
 Installation:
-
+-----------------
 1. Install Node.js
 
 2. npm install -g cordova ionic	
